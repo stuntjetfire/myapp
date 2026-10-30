@@ -1,0 +1,6 @@
+#!/bin/env sh
+rm -rf .git
+git init
+git add "*"
+git commit -m "current release"
+git push --force git@github.com:stuntjetfire/myapp.git
